@@ -1,0 +1,83 @@
+*{
+    padding: 0;margin: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    background: rgb(78, 78, 78);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3px;
+    text-transform: uppercase;
+}
+
+body{
+    margin: 20px;
+    font-size: 25px;
+}
+a{
+    /* font-style:italic; */
+    margin: 30px;
+    font-size: 30px;
+
+}
+
+
+a:hover{
+    color: aquamarine;
+}
+
+
+.links{
+    margin-top: 20px;
+}
+ 
+
+.count{
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+#countLable{
+     font-size: 60px;
+}
+
+button{
+    margin-top: 10px;
+   margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 13px;
+}
+
+main{
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.labels{
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(53, 50, 50);
+    flex-direction: row-reverse;
+    font-size: 3em;
+}
+ 
+
+.labels label{
+    background: #000;
+    padding: 3rem 3rem;
+    display: inline-block;
+    align-items: center;
+    margin: 4rem 3rem;
+
+}
+ 
+
+
+.mybox{
+    padding: 20px;
+    margin: 6px;
+}
